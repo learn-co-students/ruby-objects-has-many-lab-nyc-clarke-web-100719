@@ -17,7 +17,7 @@ class Post
     end
 
     def author_name
-        self.author.name unless !self.author
+        author.name if author
     end
 
 end
